@@ -68,6 +68,12 @@ Transformer blocks, employing multi-head attention and feedforward layers, captu
 We just implemented this pre-trained Bert model just to compare our model results with this model. BERT is the first representation model based on fine-tuning that outperforms numerous task-specific designs and reaches state-of-the-art performance on a wide range of sentence and token-level problems. Here, we have two stages to complete which are pre-training and fine-tuning. The model was tested on unlabelled data across several pre-training tasks during pre-training. The pre-trained parameters are used to initialize the BERT model for fine-tuning, and labeled data from the downstream jobs is used to adjust every parameter. Even the Bert model just got around 65% accuracy which is not that much higher than our models, so we can say that our models are working well.
 
 
+Web Application:
+We used Gradio to integrate our model into a web application where users can test news articles for authenticity.
+
+![WhatsApp Image 2023-11-23 at 3 43 31 PM](https://github.com/santhoshchilaka/Fake-News-Detection/assets/59920639/b4df485f-3145-4f2f-8239-992e0dab0398)
+
+
 References:
 
 1. https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a
