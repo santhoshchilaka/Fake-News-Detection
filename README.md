@@ -66,3 +66,17 @@ Transformer blocks, employing multi-head attention and feedforward layers, captu
 4. Bert
 
 We just implemented this pre-trained Bert model just to compare our model results with this model. BERT is the first representation model based on fine-tuning that outperforms numerous task-specific designs and reaches state-of-the-art performance on a wide range of sentence and token-level problems. Here, we have two stages to complete which are pre-training and fine-tuning. The model was tested on unlabelled data across several pre-training tasks during pre-training. The pre-trained parameters are used to initialize the BERT model for fine-tuning, and labeled data from the downstream jobs is used to adjust every parameter. Even the Bert model just got around 65% accuracy which is not that much higher than our models, so we can say that our models are working well.
+
+
+References:
+
+https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a
+https://nshrimali21.medium.com/language-translation-transformers-attention-pytorch-35641c056992
+https://github.com/youngbin-ro/Attention-Based-BiLSTM
+https://medium.com/@skillcate/detecting-fake-news-with-a-bert-model-9c666e3cdd9b
+https://medium.com/@hunter-j-phillips/multi-head-attention-7924371d477a
+https://spotintelligence.com/2023/01/31/self-attention/
+https://github.com/SindhuMadi/FakeNewsDetection/tree/main
+https://towardsdatascience.com/build-your-own-transformer-from-scratch-using-pytorch-84c850470dcb
+https://github.com/Nish-19/BERT\_Tutorial/tree/main
+https://github.com/JaySuthar/FAKE\_NEWS\_DETECTION\_USING\_CNN\_LSTM\_BILSTM\_BERT\_ROBERTA
