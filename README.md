@@ -70,13 +70,13 @@ We just implemented this pre-trained Bert model just to compare our model resul
 
 References:
 
-https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a
-https://nshrimali21.medium.com/language-translation-transformers-attention-pytorch-35641c056992
-https://github.com/youngbin-ro/Attention-Based-BiLSTM
-https://medium.com/@skillcate/detecting-fake-news-with-a-bert-model-9c666e3cdd9b
-https://medium.com/@hunter-j-phillips/multi-head-attention-7924371d477a
-https://spotintelligence.com/2023/01/31/self-attention/
-https://github.com/SindhuMadi/FakeNewsDetection/tree/main
-https://towardsdatascience.com/build-your-own-transformer-from-scratch-using-pytorch-84c850470dcb
-https://github.com/Nish-19/BERT\_Tutorial/tree/main
-https://github.com/JaySuthar/FAKE\_NEWS\_DETECTION\_USING\_CNN\_LSTM\_BILSTM\_BERT\_ROBERTA
+1. https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a
+2. https://nshrimali21.medium.com/language-translation-transformers-attention-pytorch-35641c056992
+3. https://github.com/youngbin-ro/Attention-Based-BiLSTM
+4. https://medium.com/@skillcate/detecting-fake-news-with-a-bert-model-9c666e3cdd9b
+5. https://medium.com/@hunter-j-phillips/multi-head-attention-7924371d477a
+6. https://spotintelligence.com/2023/01/31/self-attention/
+7. https://github.com/SindhuMadi/FakeNewsDetection/tree/main
+8. https://towardsdatascience.com/build-your-own-transformer-from-scratch-using-pytorch-84c850470dcb
+9. https://github.com/Nish-19/BERT\_Tutorial/tree/main
+10. https://github.com/JaySuthar/FAKE\_NEWS\_DETECTION\_USING\_CNN\_LSTM\_BILSTM\_BERT\_ROBERTA
