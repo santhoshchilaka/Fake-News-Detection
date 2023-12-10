@@ -5,6 +5,7 @@ In the digital age where fake news proliferates rapidly, our project explores th
 Models:
 
 1. Bi-LSTM
+
 ![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/a2b08bfc-6c8a-4435-8e8c-c900cc041bae)
 
 The architecture presented in the diagram provides a structured approach to natural language pro-
@@ -31,6 +32,7 @@ score is the model’s prediction of the likelihood that the input text belongs 
 achieving the classification objective
 
 2. Bi-LSTM(attention)
+
 ![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/cb8de268-f21d-402c-b8e1-fff560ce9fc7)
 
 The architecture encapsulates a sequence-to-sequence neural network designed for the classification
@@ -64,6 +66,3 @@ Transformer blocks, employing multi-head attention and feedforward layers, captu
 4. Bert
 
 We just implemented this pre-trained Bert model just to compare our model results with this model. BERT is the first representation model based on fine-tuning that outperforms numerous task-specific designs and reaches state-of-the-art performance on a wide range of sentence and token-level problems. Here, we have two stages to complete which are pre-training and fine-tuning. The model was tested on unlabelled data across several pre-training tasks during pre-training. The pre-trained parameters are used to initialize the BERT model for fine-tuning, and labeled data from the downstream jobs is used to adjust every parameter. Even the Bert model just got around 65% accuracy which is not that much higher than our models, so we can say that our models are working well.
-
-![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/3d6987af-a4e6-4c88-9a8c-e375ef0ad15c)
-
