@@ -2,7 +2,7 @@
 
 In the digital age where fake news proliferates rapidly, our project explores the use of advanced NLP techniques for effective detection and differentiation of true vs. false narratives. With the rise of social media and the widespread dissemination of information, the spread of fake news has become a significant issue in society. Fake news often has characteristics such as sensational headlines, emotionally charged language, lack of credible sources, and confirmation bias. Our project aims to showcase the effectiveness and efficiency of both models in fake news detection, providing insights into their performance and potential applications in automated fact-checking. We harness the strengths of LSTM (Long Short-Term Memory) and Transformer models, renowned for their ability to process sequential data and large datasets, respectively, in the context of complex text analysis. We were able to get around 62\% accuracy for our models.
 
-Models:
+# Models:
 
 1. Bi-LSTM
 
@@ -68,13 +68,14 @@ Transformer blocks, employing multi-head attention and feedforward layers, captu
 We just implemented this pre-trained Bert model just to compare our model results with this model. BERT is the first representation model based on fine-tuning that outperforms numerous task-specific designs and reaches state-of-the-art performance on a wide range of sentence and token-level problems. Here, we have two stages to complete which are pre-training and fine-tuning. The model was tested on unlabelled data across several pre-training tasks during pre-training. The pre-trained parameters are used to initialize the BERT model for fine-tuning, and labeled data from the downstream jobs is used to adjust every parameter. Even the Bert model just got around 65% accuracy which is not that much higher than our models, so we can say that our models are working well.
 
 
-Web Application:
+# Web Application:
+
 We used Gradio to integrate our model into a web application where users can test news articles for authenticity.
 
 ![WhatsApp Image 2023-11-23 at 3 43 31 PM](https://github.com/santhoshchilaka/Fake-News-Detection/assets/59920639/b4df485f-3145-4f2f-8239-992e0dab0398)
 
 
-References:
+# References:
 
 1. https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a
 2. https://nshrimali21.medium.com/language-translation-transformers-attention-pytorch-35641c056992
