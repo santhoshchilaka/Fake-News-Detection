@@ -53,7 +53,7 @@ particular class, which finalizes the binary classification process. The archite
 extract and utilize the intricate patterns within text data, enabling accurate classification decisions.
 
 
-4. Transformer
+3. Transformer
    
 This Transformer-based model begins with text data that is methodically cleaned and vectorized using TF-IDF, ensuring that the most significant words within the text are emphasized numerically. The model then embeds these vectors into a higher-dimensional space and integrates positional encoding, a critical component that allows the transformer to understand the order and relevance of words in a sequence. The self-attention mechanism within the Transformer block is pivotal, enabling the model to dynamically assign importance to different segments of the input data, a process that is inherently more global compared to the local focus in LSTM architectures.
 
