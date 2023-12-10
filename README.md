@@ -8,7 +8,7 @@ Models:
 ![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/a2b08bfc-6c8a-4435-8e8c-c900cc041bae)
 
 2. Bi-LSTM(attention)
-   ![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/cb8de268-f21d-402c-b8e1-fff560ce9fc7)
+![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/cb8de268-f21d-402c-b8e1-fff560ce9fc7)
 
 3. Transformer
  ![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/b50c148b-e525-47c8-a3a8-543aed5e0ad4)
