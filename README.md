@@ -60,3 +60,10 @@ This Transformer-based model begins with text data that is methodically cleaned 
 Transformer blocks, employing multi-head attention and feedforward layers, capture intricate contextual dependencies, allowing the model to discern the relevance of different words within a statement. The inclusion of layer normalization stabilizes training, mitigating issues like vanishing or exploding gradients. Global average pooling reduces spatial dimensions, and the fully connected layer produces the final output for binary classification. The softmax or sigmoid output layer provides the probability scores for each class, giving a quantifiable measure for classification decisions. Unlike the sequential focus of LSTM models, this architecture leverages the parallel nature of Transformers to efficiently handle long-range dependencies and complex patterns in text data, making it highly suitable for sophisticated natural language processing tasks.
 
 ![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/b50c148b-e525-47c8-a3a8-543aed5e0ad4)
+
+4. Bert
+
+We just implemented this pre-trained Bert model just to compare our model results with this model. BERT is the first representation model based on fine-tuning that outperforms numerous task-specific designs and reaches state-of-the-art performance on a wide range of sentence and token-level problems. Here, we have two stages to complete which are pre-training and fine-tuning. The model was tested on unlabelled data across several pre-training tasks during pre-training. The pre-trained parameters are used to initialize the BERT model for fine-tuning, and labeled data from the downstream jobs is used to adjust every parameter. Even the Bert model just got around 65% accuracy which is not that much higher than our models, so we can say that our models are working well.
+
+![image](https://github.com/santhoshchilaka/Fake-News-Detection/assets/51093711/3d6987af-a4e6-4c88-9a8c-e375ef0ad15c)
+
