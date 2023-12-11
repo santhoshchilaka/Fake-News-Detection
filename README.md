@@ -70,7 +70,7 @@ We just implemented this pre-trained Bert model just to compare our model resul
 
 # Web Application:
 
-We used Gradio to integrate our model into a web application where users can test news articles for authenticity.
+We used Gradio to integrate our model into a web application where users can test news articles for authenticity. Run fake_test.py/attn_liar2_app.py to open the web interface through the link generated.
 
 ![WhatsApp Image 2023-11-23 at 3 43 31 PM](https://github.com/santhoshchilaka/Fake-News-Detection/assets/59920639/b4df485f-3145-4f2f-8239-992e0dab0398)
 
