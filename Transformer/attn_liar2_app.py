@@ -5,9 +5,34 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import math
 
-
-
 # Transformer Model
+# class TransformerModel(nn.Module):
+#     def __init__(self, input_size=128, hidden_size=256, num_layers=3, num_heads=4, dropout_prob=0.1):
+#         super(TransformerModel, self).__init__()
+
+#         self.embedding_layer = nn.Linear(input_size, hidden_size)
+#         self.attention_mask = nn.Linear(input_size, hidden_size)
+        
+#         self.transformer_encoder = nn.TransformerEncoder(
+#             nn.TransformerEncoderLayer(
+#                 d_model=hidden_size,
+#                 nhead=num_heads,
+#                 dropout=dropout_prob
+#             ),
+#             num_layers=num_layers
+#         )
+
+#         self.fc = nn.Linear(hidden_size, 1)  # Assuming binary classification (fake or not fake)
+
+#     def forward(self, input_embeddings, attention_mask):
+#         x = self.embedding_layer(input_embeddings)
+#         x += self.attention_mask(attention_mask)
+#         x = self.transformer_encoder(x)
+#         x = self.fc(x)
+#         x = torch.sigmoid(x)
+#         return x
+
+
 # Transformer Model
 class TransformerModel(nn.Module):
     def __init__(self, input_dim, hidden_dim, output_dim, num_heads, num_layers):
